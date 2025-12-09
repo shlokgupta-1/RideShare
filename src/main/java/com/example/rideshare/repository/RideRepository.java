@@ -1,6 +1,6 @@
 package com.example.rideshare.repository;
 
-import org.example.rideshare.model.Ride;
+import com.example.rideshare.model.Ride;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import java.util.List;
 

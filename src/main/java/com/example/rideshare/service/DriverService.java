@@ -1,11 +1,11 @@
 package com.example.rideshare.service;
 
-import org.example.rideshare.exception.BadRequestException;
-import org.example.rideshare.exception.NotFoundException;
-import org.example.rideshare.model.Ride;
-import org.example.rideshare.model.User;
-import org.example.rideshare.repository.RideRepository;
-import org.example.rideshare.repository.UserRepository;
+import com.example.rideshare.exception.BadRequestException;
+import com.example.rideshare.exception.NotFoundException;
+import com.example.rideshare.model.Ride;
+import com.example.rideshare.model.User;
+import com.example.rideshare.repository.RideRepository;
+import com.example.rideshare.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

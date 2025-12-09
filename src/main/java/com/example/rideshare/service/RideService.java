@@ -7,8 +7,11 @@ import com.example.rideshare.model.Ride;
 import com.example.rideshare.model.User;
 import com.example.rideshare.repository.RideRepository;
 import com.example.rideshare.repository.UserRepository;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
+
+
 
 @Service
 public class RideService {

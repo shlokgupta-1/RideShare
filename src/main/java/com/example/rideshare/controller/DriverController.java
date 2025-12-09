@@ -1,6 +1,6 @@
 package com.example.rideshare.controller;
 
-import org.example.rideshare.model.Ride;
+import com.example.rideshare.model.Ride;
 import com.example.rideshare.service.DriverService;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

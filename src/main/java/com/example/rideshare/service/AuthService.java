@@ -1,16 +1,11 @@
 package com.example.rideshare.service;
 
 import com.example.rideshare.dto.LoginRequest;
-import com
-        .example.rideshare.dto.RegisterRequest;
-import com
-        .example.rideshare.exception.BadRequestException;
-import com
-        .example.rideshare.model.User;
-import com
-        .example.rideshare.repository.UserRepository;
-import com
-        .example.rideshare.util.JwtUtil;
+import com.example.rideshare.dto.RegisterRequest;
+import com.example.rideshare.exception.BadRequestException;
+import com.example.rideshare.model.User;
+import com.example.rideshare.repository.UserRepository;
+import com.example.rideshare.util.JwtUtil;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
